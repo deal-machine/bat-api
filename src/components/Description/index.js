@@ -19,8 +19,10 @@ const Description = () => {
             </tr>
 
             <tr>
-              <th>First Appearance</th>
-              <td>DETECTIVE COMICS #27 (1939)</td>
+              <th>Base of Operations
+                
+              </th>
+              <td>Metropolis</td>
             </tr>
             <tr>
               <th>Alias/Alter Ego</th>
