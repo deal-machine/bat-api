@@ -14,7 +14,7 @@ const Main = () => {
       </div>
 
       <div id="titulo">
-        <h3><b>The oficial history of </b> Superman. </h3>
+        <h3><b>The history of </b> Superman. </h3>
       </div>
 
       <div id="texto">

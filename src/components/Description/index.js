@@ -1,11 +1,13 @@
 import React from 'react';
 
-import './styles.css'
+import background from '../../assets/images/background.jpg';
+import './styles.css';
 
 const Description = () => {
   return (
     <div className="infos" >
       <div >
+
         <h1>Character Facts</h1>
         <table>
           <thead>
@@ -35,8 +37,8 @@ const Description = () => {
           </tbody>
           <tfoot></tfoot>
         </table>
+        <img src={background} alt="super background" />
       </div>
-
     </div >
   );
 }

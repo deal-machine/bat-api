@@ -1,12 +1,23 @@
-div.infos {
+div.infos div {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin: 7% 0;
 }
-div.infos div {
-  margin: 3%;
+div.infos div img {
+  border-top: 4px dashed red;
+  border-bottom: 4px dashed blue;
+  border-right: 4px dashed red;
+  border-left: 4px dashed blue;
+
+  border-radius: 5px;
+  opacity: 0.9;
+  margin: 7% 0;
+  max-width: 95%;
+  transition: 0.5s;
+}
+div.infos div img:hover {
+  transform: scale(1.1);
 }
 div.infos div h1 {
   text-align: center;
