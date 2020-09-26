@@ -24,7 +24,7 @@
 }
 .books img {
   align-self: center;
-  width: 20%;
+  width: 25%;
 }
 .books .description {
   padding: 1%;
@@ -34,4 +34,9 @@
   text-align: center;
   text-decoration: none;
   color: black;
+}
+@media (min-width: 700px) {
+  .books div#content {
+    display: flex;
+  }
 }
