@@ -10,7 +10,7 @@ const Description = () => {
         <table>
           <tr>
             <th>Powers</th>
-            <td>exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</td>
+            <td>super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</td>
           </tr>
           <tr>
             <th>First Appearance</th>
@@ -18,15 +18,15 @@ const Description = () => {
           </tr>
           <tr>
             <th>Alias/Alter Ego</th>
-            <td>Bruce Wayne</td>
+            <td>Clark Kent, Kal-El</td>
           </tr>
           <tr>
-            <th>AKA</th>
-            <td>Dark Knight, Caped Crusader, Matches Malone</td>
+            <th>Occupation</th>
+            <td>Reporter</td>
           </tr>
           <tr>
-            <th>Base of Operations</th>
-            <td>Gotham City</td>
+            <th>First Appearance</th>
+            <td>ACTION COMICS #1 (1938)</td>
           </tr>
         </table>
       </div>

@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header id="main-header">
       <div></div>
-      <h1>BATMAN O CAVALEIRO DAS TREVAS</h1>
-      <h2>Bat-man ou Batman? A história do homem morcego!</h2>
+      <h1>Man of Steel - SUPERMAN</h1>
+      <h2>Uma biografia não autorizada sobre Super-homem</h2>
     </header>
   );
 }

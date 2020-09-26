@@ -19,8 +19,7 @@ export default class Content extends Component {
   }
 
   loadBooks = async () => {
-    const response = await api.get('BATMAN');
-    console.log(response.data.items)
+    const response = await api.get('SUPERMAN');
     this.setState({ books: response.data.items });
   };
 
@@ -55,10 +54,9 @@ export default class Content extends Component {
                 {book.volumeInfo.description}
               </p>
 
-              <img src="https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Batman_20190116_5c3fc4b40faec2.47318964.jpg?itok=u4BHrDeE" alt="bat" />
-              {/* <img src={
-                typeof (book.volumeInfo.imageLinks.thumbnail) !== undefined ? `${book.volumeInfo.imageLinks.thumbnail}` : "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Batman_20190116_5c3fc4b40faec2.47318964.jpg?itok=u4BHrDeE"
-              } alt="bat" /> */}
+              <img src={
+                typeof (book.volumeInfo.imageLinks.thumbnail) !== undefined ? `${book.volumeInfo.imageLinks.thumbnail}` : "http://books.google.com/books/content?id=slG2DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              } alt="superman" />
 
               <a href={book.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer"> Acessar </a>
 
