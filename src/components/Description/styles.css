@@ -42,6 +42,8 @@ div.infos div table tr td {
 
   div.infos div table tr td {
     font-size: 1.6vw;
+
+    text-align: center;
   }
   div.infos p {
     font-size: 2.7vw;

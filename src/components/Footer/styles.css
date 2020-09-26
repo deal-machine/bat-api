@@ -7,7 +7,7 @@ div.footer p {
 }
 div.footer p a {
   text-decoration: none;
-  color: tomato;
+  color: #c80000;
 }
 
 @media (min-width: 700px) {

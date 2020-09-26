@@ -1,14 +1,14 @@
 .books article {
   display: flex;
   flex-direction: column;
-  background-color: #ddd;
-  border: solid black;
+  background-color: #48a4d6;
+  border: solid #c80000;
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
 }
 .books article:hover {
-  background-color: gray;
+  background-color: #317499;
 }
 .books .title {
   text-align: center;
@@ -20,7 +20,7 @@
 .books .categories {
   margin: 1%;
   text-align: center;
-  color: tomato;
+  color: #c80000;
 }
 .books img {
   align-self: center;
