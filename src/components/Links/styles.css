@@ -1,0 +1,24 @@
+div#botoes_atalhos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+div#botoes_atalhos a {
+  display: flex;
+  justify-content: center;
+  width: 14%;
+}
+div#botoes_atalhos a img {
+  width: 50%;
+}
+@media (min-width: 700px) {
+  div#botoes_atalhos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  div#botoes_atalhos a {
+    margin-bottom: 3vw;
+    width: 9vw;
+  }
+}
