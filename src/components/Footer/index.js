@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>
-        Superman's history, visit his page on <a href="https://www.dcuniverse.com/coming-soon/">DCUniverse.com</a>
+        Get all SuperHeroes and Villians data from all universes under a single API. <a href="https://superheroapi.com/index.html" target="_blank">SuperHero API documentation</a>
       </p>
     </div>
   );

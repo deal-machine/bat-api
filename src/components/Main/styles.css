@@ -8,7 +8,7 @@ section#first-content {
   margin: 4%;
 }
 #titulo h3 b {
-  color: #c80000;
+  color: #d1d25d;
 }
 #texto {
   text-align: justify;
@@ -22,7 +22,7 @@ section#first-content {
 }
 #frase strong {
   font-size: 9vw;
-  color: #c80000;
+  color: #d1d25d;
 }
 @media (min-width: 700px) {
   section#first-content {

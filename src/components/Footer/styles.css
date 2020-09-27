@@ -1,18 +1,18 @@
 div.footer {
   margin: 5%;
-  border-top: 2px solid #c80000;
-  border-bottom: 2px solid #317499;
+  border-top: 2px solid #2b2d42;
+  border-bottom: 2px solid #d1d25d;
 }
 div.footer p {
   margin: 2%;
   text-align: center;
   font-weight: bold;
   font-size: 3.7vw;
-  color: #317499;
+  color: #2b2d42;
 }
 div.footer p a {
   text-decoration: none;
-  color: #c80000;
+  color: #d1d25d;
 }
 
 @media (min-width: 700px) {
