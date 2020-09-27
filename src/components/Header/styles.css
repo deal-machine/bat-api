@@ -8,10 +8,9 @@
 #main-header div {
   width: 150px;
   height: 150px;
-  background-image: url("../../assets/images/superman.jpg");
+  background-image: url("../../assets/images/comics.png");
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 50%;
   margin-bottom: 10px;
 }
 #main-header h1 {

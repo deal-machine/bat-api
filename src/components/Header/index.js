@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header id="main-header">
       <div></div>
-      <h1>Man of Steel - SUPERMAN</h1>
-      <h2>Uma biografia não autorizada sobre Super-homem</h2>
+      <h1>The other ones and the heroes</h1>
+      <h2>Uma biografia não autorizada sobre ... personagens</h2>
     </header>
   );
 }

@@ -1,4 +1,4 @@
-.books article {
+.heroes article {
   display: flex;
   flex-direction: column;
   background-color: #48a4d6;
@@ -7,36 +7,36 @@
   margin: 2% 9%;
   padding: 2%;
 }
-.books article:hover {
+.heroes article:hover {
   background-color: #317499;
 }
-.books .title {
+.heroes .title {
   text-align: center;
   font-size: xx-large;
 }
-.books .autores {
+.heroes .autores {
   text-align: center;
 }
-.books .categories {
+.heroes .categories {
   margin: 1%;
   text-align: center;
   color: #c80000;
 }
-.books img {
+.heroes img {
   align-self: center;
   width: 25%;
 }
-.books .description {
+.heroes .description {
   padding: 1%;
   text-align: justify;
 }
-.books a {
+.heroes a {
   text-align: center;
   text-decoration: none;
   color: black;
 }
 @media (min-width: 700px) {
-  .books div#content {
+  .heroes div#content {
     display: flex;
   }
 }

@@ -14,28 +14,32 @@ const Main = () => {
       </div>
 
       <div id="titulo">
-        <h3><b>The history of </b> Superman. </h3>
+        <h3>The history of  <b>many comics. </b></h3>
       </div>
 
       <div id="texto">
         <p>
-          Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending battle for truth, justice, and the American way.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto corporis doloremque ducimus iste? Nemo esse odit molestiae dolorum blanditiis accusantium omnis praesentium sint. Magnam nihil dolor quam, delectus nesciunt doloremque.
         <br /> <br />
-        From his blue uniform to his flowing red cape to the "S" shield on his chest, Superman is one of the most immediately recognizable and beloved DC Super Heroes of all time. The Man of Steel is the ultimate symbol of truth, justice, and hope. He is the world's first Super Hero and a guiding light to all.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus excepturi, nostrum nam vitae delectus possimus sequi suscipit! Optio maiores quisquam saepe eos, enim dolorem quaerat quis dolores, fugiat, autem debitis?
 
-The tip of the spear in a revolution that would change the landscape of pop culture, Superman has spent the last eighty years redefining what it means to stand for truth, justice and the American way. The last survivor of the doomed planet Krypton, raised in the quiet heartland of Smallville, Kansas, Superman is as much a legend as he is a man: the gold standard of heroism, compassion and responsibility.</p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto repudiandae voluptas deleniti delectus cum impedit ipsa culpa eveniet et nemo ut quos aliquam, eius quisquam assumenda soluta reprehenderit nobis.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit pariatur cumque laudantium nihil minima nisi, quod maxime id impedit eos, libero, debitis quasi quis qui voluptates. Odio, vitae maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis saepe velit libero sapiente accusamus, facere vitae dicta sint quis in nisi itaque expedita ipsam quasi alias quibusdam iure error?</p>
       </div>
 
       <div id="frase">
 
 
         <strong>"</strong>
-        <p>Tem que decidir que homem vai se tornar. E seja lá quem ele for... Ele vai mudar o mundo. </p>
+        <p>Sempre incluí minorias em minhas histórias, muitas vezes como heróis. Vivemos em uma sociedade diversificada - na verdade, um mundo diverso, e precisamos aprender a viver em paz e com respeito uns pelos outros.
+          <br />
+         - Stan Lee -
+        </p>
         <br />
         <strong>"</strong>
 
       </div>
-
+      <p></p>
 
     </section >
 

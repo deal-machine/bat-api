@@ -1,22 +1,22 @@
 import React from 'react';
 import './styles.css';
 
-import morcego from '../../assets/icons/super-homen.png';
-import facebook from '../../assets/icons/facebook.png';
-import youtube from '../../assets/icons/youtube.png';
+import github from '../../assets/icons/github.png';
+import linkedin from '../../assets/icons/linkedin.png';
 import twitter from '../../assets/icons/twitter.png';
+import whatsapp from '../../assets/icons/whatsapp.png';
 
 const Links = () => {
   return (
     <div id="botoes_atalhos">
 
-      <a href="https://www.dccomics.com/characters/superman" target="_blank" rel="noopener noreferrer"><img src={morcego} alt="superman" /></a>
+      <a href="https://github.com/deal-machine" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
 
-      <a href="https://www.facebook.com/superman" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="superman facebook" /></a>
+      <a href="https://www.linkedin.com/in/95deal/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" /></a>
 
-      <a href="https://twitter.com/DCSuperman" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="superman twitter" /></a>
+      <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="whatsapp" /></a>
 
-      <a href="https://www.dccomics.com/videos/nycc-2012-superman-101" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="superman videos" /></a>
+      <a href="https://twitter.com/doug4lc" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a>
 
     </div>
   );

@@ -11,58 +11,56 @@ import './styles.css';
 export default class Content extends Component {
 
   state = {
-    books: [],
+    heroes: [],
   }
 
   componentDidMount() {
-    this.loadBooks();
+    this.loadHeroes();
   }
 
-  loadBooks = async () => {
-    const response = await api.get('SUPERMAN');
-    this.setState({ books: response.data.items });
+  loadHeroes = async () => {
+    const response = await api.get('Vegeta');
+    (response.data.response === 'success' ? console.log("OK") : console.log("NOT OK"))
+    this.setState({ heroes: response.data.results });
   };
 
   render() {
-    const { books } = this.state;
+    const { heroes } = this.state;
 
     return (
       <div>
         <Header />
         <Main />
 
-        <div className="books">
+        <div className="heroes">
 
-          {books.map(book => (
+          {heroes.map(hero => (
+            // < a  href={hero.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer" >
+            < article key={hero.id}>
 
-            <a href={book.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer">
-              < article key={book.id} >
+              <h2 className="title">
+                {hero.name}
+              </h2>
 
-                <h2 className="title">
-                  {book.volumeInfo.title}
-                </h2>
+              <h3 className="autores">
+                {hero.biography.publisher}
+              </h3>
 
-                <h3 className="autores">
-                  {book.volumeInfo.authors}
-                </h3>
+              <h4 className="categories">
+                {hero.biography.fullName}
+              </h4>
+              <div id="content">
+                <p className="description">
+                  {hero.connections.groupAffiliation}
+                </p>
 
-                <h4 className="categories">
-                  {book.volumeInfo.categories}
-                </h4>
-                <div id="content">
-                  <p className="description">
-                    {book.volumeInfo.description}
-                  </p>
+                <img src={`${hero.image.url}`} alt="superman" />
 
-                  <img src={
-                    typeof (book.volumeInfo.imageLinks.thumbnail) !== undefined ? `${book.volumeInfo.imageLinks.thumbnail}` : "http://books.google.com/books/content?id=slG2DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                  } alt="superman" />
-
-                </div>
+              </div>
 
 
-              </article>
-            </a>
+            </article>
+            // </a>
           ))
           }
         </div >
