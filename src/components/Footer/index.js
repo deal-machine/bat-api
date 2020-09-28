@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>
-        Get all SuperHeroes and Villians data from all universes under a single API. <a href="https://superheroapi.com/index.html" target="_blank" rel="noopener noreferrer">SuperHero API documentation</a>
+        Multiple universes superheroes open-source <a href="https://akabab.github.io/superhero-api/api/" target="_blank" rel="noopener noreferrer">REST API</a>
       </p>
     </div>
   );

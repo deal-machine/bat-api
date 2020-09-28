@@ -1,15 +1,21 @@
 div#botoes_atalhos {
   display: flex;
   justify-content: center;
-  margin-bottom: 3%;
+  margin-bottom: 7%;
 }
 div#botoes_atalhos a {
   display: flex;
   justify-content: center;
-  width: 14%;
+  width: 15vw;
 }
 div#botoes_atalhos a img {
-  width: 50%;
+  width: 90%;
+}
+
+@media (min-width: 400px) {
+  div#botoes_atalhos a img {
+    width: 50%;
+  }
 }
 @media (min-width: 700px) {
   div#botoes_atalhos {
@@ -19,6 +25,6 @@ div#botoes_atalhos a img {
   }
   div#botoes_atalhos a {
     margin-bottom: 3vw;
-    width: 9vw;
+    width: 10vw;
   }
 }

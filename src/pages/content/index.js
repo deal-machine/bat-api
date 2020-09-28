@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from '../../components/Header';
 import Main from '../../components/Main';
 import Footer from '../../components/Footer';
-import Description from '../../components/Description';
 
 import api from '../../services/api';
 import './styles.css';
@@ -19,9 +18,8 @@ export default class Content extends Component {
   }
 
   loadHeroes = async () => {
-    const response = await api.get('Wonder%20Woman');
-    (response.data.response === 'success' ? console.log("OK") : console.log("NOT OK"))
-    this.setState({ heroes: response.data.results });
+    const response = await api.get('all.json');
+    this.setState({ heroes: response.data });
   };
 
   render() {
@@ -35,32 +33,18 @@ export default class Content extends Component {
         <div className="heroes">
 
           {heroes.map(hero => (
-            // < a  href={hero.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer" >
-            < article key={hero.id}>
+            < a key={hero.id} href={hero.images.lg} target="_blank" rel="noopener noreferrer" >
 
-              {/* <h2 className="title">
-                {hero.name}
-              </h2>
-
-              <h3 className="autores">
-                {hero.biography.publisher}
-              </h3>
-
-              <h4 className="categories">
-                {hero.biography.fullName}
-              </h4>
-              <div id="content">
-                <p className="description">
-                  {hero.connections.groupAffiliation}
-                </p> 
+              < article >
 
 
-              </div>*/}
+                <img src={hero.images.sm} alt="ola" />
 
-              <img key={hero.id} src={`${hero.image.url}`} alt="hero" />
+                <h2 className="title"> {hero.name} </h2>
 
-            </article>
-            // </a>
+
+              </article>
+            </a>
           ))
           }
         </div >

@@ -13,6 +13,7 @@ section#first-content {
 #texto {
   text-align: justify;
   font-size: 4vw;
+  margin: unset;
 }
 #frase {
   text-align: center;

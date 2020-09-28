@@ -11,14 +11,25 @@
   background-image: url("../../assets/images/comics.png");
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 10px;
+  margin-bottom: 3vw;
 }
-#main-header h1 {
-  font-size: 4vw;
-  text-align: center;
+#main-header #title {
+  font-size: 7vw;
+  text-align: justify;
 }
-#main-header h2 {
+#main-header #subtitle {
   font-size: 3vw;
   font-weight: lighter;
   text-align: center;
+  margin-top: 3%;
+}
+@media (min-width: 700px) {
+  #main-header #title {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  #main-header #subtitle {
+    font-size: 2vw;
+  }
 }
