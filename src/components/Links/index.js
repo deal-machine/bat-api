@@ -14,7 +14,7 @@ const Links = () => {
 
       <a href="https://www.linkedin.com/in/95deal/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" /></a>
 
-      <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="whatsapp" /></a>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515998533799" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="whatsapp" /></a>
 
       <a href="https://twitter.com/doug4lc" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a>
 

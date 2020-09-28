@@ -8,7 +8,12 @@
   margin: 4%;
   padding: 2%;
 }
-
+.heroes a {
+  transition: 0.5s;
+}
+.heroes a:hover {
+  transform: scale(1.2);
+}
 .heroes .title {
   margin-top: 3%;
   text-align: center;
@@ -30,15 +35,12 @@
   color: black;
 }
 @media (min-width: 700px) {
-  .heroes a {
-    transition: 0.5s;
-  }
-  .heroes a:hover {
-    transform: scale(1.5);
-  }
   .heroes img {
     width: 15vw;
     height: 15vw;
+  }
+  .heroes a:hover {
+    transform: scale(1.5);
   }
   .heroes .title {
     font-size: 2vw;

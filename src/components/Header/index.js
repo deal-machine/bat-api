@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header id="main-header">
       <div></div>
-      <h1 id="title">The other ones and the heroes</h1>
+      <h1 id="title">The Heroes and the other ones</h1>
       <h2 id="subtitle">Uma biografia não autorizada sobre ... personagens</h2>
     </header>
   );

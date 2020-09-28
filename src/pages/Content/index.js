@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Main from '../../components/Main';
@@ -33,18 +34,12 @@ export default class Content extends Component {
         <div className="heroes">
 
           {heroes.map(hero => (
-            < a key={hero.id} href={hero.images.lg} target="_blank" rel="noopener noreferrer" >
+            < Link key={hero.id} to={`/hero/${hero.id}`} target="_blank" rel="noopener noreferrer" >
+              <img src={hero.images.sm} alt="ola" />
 
-              < article >
+              <h2 className="title"> {hero.name} </h2>
 
-
-                <img src={hero.images.sm} alt="ola" />
-
-                <h2 className="title"> {hero.name} </h2>
-
-
-              </article>
-            </a>
+            </Link>
           ))
           }
         </div >
