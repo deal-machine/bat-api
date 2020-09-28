@@ -1,15 +1,17 @@
-.heroes article {
+.heroes {
   display: flex;
-  flex-direction: column;
-  background-color: #48a4d6;
-  border: solid #c80000;
-  border-radius: 5px;
-  margin: 2% 9%;
+  width: 100%;
+  justify-content: center;
+}
+.heroes article {
+  margin: 2% 5%;
   padding: 2%;
+  transition: 0.5s;
 }
 .heroes article:hover {
-  background-color: #317499;
+  transform: scale(1.5);
 }
+/* 
 .heroes .title {
   text-align: center;
   font-size: xx-large;
@@ -20,11 +22,13 @@
 .heroes .categories {
   margin: 1%;
   text-align: center;
-  color: #c80000;
-}
+  color: #000000;
+} */
 .heroes img {
   align-self: center;
-  width: 25%;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 100%;
 }
 .heroes .description {
   padding: 1%;

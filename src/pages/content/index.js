@@ -19,7 +19,7 @@ export default class Content extends Component {
   }
 
   loadHeroes = async () => {
-    const response = await api.get('Vegeta');
+    const response = await api.get('Wonder%20Woman');
     (response.data.response === 'success' ? console.log("OK") : console.log("NOT OK"))
     this.setState({ heroes: response.data.results });
   };
@@ -38,7 +38,7 @@ export default class Content extends Component {
             // < a  href={hero.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer" >
             < article key={hero.id}>
 
-              <h2 className="title">
+              {/* <h2 className="title">
                 {hero.name}
               </h2>
 
@@ -52,12 +52,12 @@ export default class Content extends Component {
               <div id="content">
                 <p className="description">
                   {hero.connections.groupAffiliation}
-                </p>
+                </p> 
 
-                <img src={`${hero.image.url}`} alt="superman" />
 
-              </div>
+              </div>*/}
 
+              <img key={hero.id} src={`${hero.image.url}`} alt="hero" />
 
             </article>
             // </a>
@@ -65,7 +65,6 @@ export default class Content extends Component {
           }
         </div >
 
-        <Description />
         <Footer />
       </div >
     )

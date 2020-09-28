@@ -1,7 +1,7 @@
 div.footer {
   margin: 5%;
   border-top: 2px solid #2b2d42;
-  border-bottom: 2px solid #d1d25d;
+  border-bottom: 2px solid #fca311;
 }
 div.footer p {
   margin: 2%;
@@ -12,7 +12,7 @@ div.footer p {
 }
 div.footer p a {
   text-decoration: none;
-  color: #d1d25d;
+  color: #fca311;
 }
 
 @media (min-width: 700px) {
