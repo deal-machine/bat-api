@@ -42,6 +42,7 @@ div.infos div table tr td {
     width: 100%;
     height: 100vh;
     margin: unset;
+    padding: 10%;
   }
   div.infos div table h1 {
     font-size: 3vw;
