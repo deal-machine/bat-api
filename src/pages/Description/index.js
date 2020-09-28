@@ -18,7 +18,8 @@ export default class Description extends Component {
 
     const hero = await api.get(`https://akabab.github.io/superhero-api/api/id/${id}.json`);
 
-    let name = hero.data.name.toLowerCase().replace(" ", "-");
+    let name = hero.data.name.toLowerCase().replaceAll(" ", "-");
+
     const images = await api.get(`https://akabab.github.io/superhero-api/api/images/lg/${id}-${name}.jpg`);
 
     this.setState({
