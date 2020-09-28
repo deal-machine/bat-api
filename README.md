@@ -19,6 +19,7 @@
 
 <br>
 <ol>Informações técnicas de desenvolvimento</ol>
+<li>SPA - Single-page application</li>
 <li>Componentes, Estado, Roteamento</li>
 <li>ES6</li>
 <li>CSS - GRID - FLEXBOX</li>
